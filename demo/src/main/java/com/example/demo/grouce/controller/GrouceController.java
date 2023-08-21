@@ -17,8 +17,11 @@ public class GrouceController {
         this.grouceService = grouceService;
     }
 
-    @GetMapping
+    @GetMapping(path = "home")
     public String getHome(){
         return grouceService.getHome();
     }
+
+    @GetMapping
+    public String getDefault() { return grouceService.getDefault(); }
 }

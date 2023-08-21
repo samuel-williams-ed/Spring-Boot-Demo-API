@@ -9,4 +9,6 @@ public class GrouceService {
     public String getHome(){
         return "Welcome";
     }
+
+    public String getDefault() { return "Page Loaded Successfully"; }
 }
