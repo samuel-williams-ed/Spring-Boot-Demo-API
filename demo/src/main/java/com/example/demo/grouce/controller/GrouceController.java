@@ -21,4 +21,19 @@ public class GrouceController {
     public String getHome(){
         return grouceService.getHome();
     }
+
+    @GetMapping(path = "1")
+    public String getFirst(){
+        return grouceService.getFirst();
+    }
+
+    @GetMapping(path = "2")
+    public String getSecond(){
+        return grouceService.getSecond();
+    }
+
+    @GetMapping(path = "3")
+    public String getThird(){
+        return grouceService.getThird();
+    }
 }
