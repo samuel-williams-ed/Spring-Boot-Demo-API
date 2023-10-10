@@ -2,7 +2,8 @@ package com.example.demo.grouce.services;
 
 import org.springframework.stereotype.Service;
 
-// @Component
+// @Component 
+// note @Component does much the same as @Servce, but is less precise/clear
 @Service
 public class GrouceService {
 
