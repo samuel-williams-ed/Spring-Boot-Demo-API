@@ -1,5 +1,11 @@
 # Spring-Boot-Demo-API
+
 Using Spring Boot to build a controller for a simple web API.
+
+The app can serve four different urls.
+
+The Controller maps four paths which each call different functions from a Service.
+
 
 # To Run on Your Local Machine #
 
