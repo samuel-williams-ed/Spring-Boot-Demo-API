@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class GrouceService {
 
     public String getHome(){
-        return "Welcome";
+        return "Welcome to the Homepage! Try url 'localhost:8080/api/v1/1' ";
     }
 
     public String getFirst(){
